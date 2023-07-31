@@ -1,5 +1,5 @@
 # DigiDoubt
-DigiDoubt is a privacy and quality driven firefox extension used to judge if a website might be ai-generated. 
+DigiDoubt is a privacy and quality driven ai-article-website detector used to create ai-article blocklists. 
 
 See the DigiDoubt block-list for DNS blocking at: https://github.com/mklemmingen/DigiDoubt_blocklist
 The Blocklist includes high-profile for-sure ai-generated websites.The Tool helps navigating Search Engine Results additionally. 
@@ -14,9 +14,17 @@ For now, please be aware that the tool only handles english articles.
 
 It there was a mistake, If it was done uncarefully, this tool snoops it out.
 
-This tools tries to be as client-sided as possible, no data-collecting and low on resource usage.
-All API-Tools are only used to determine website age as well as, if choosen, deep article recognizion. 
+All API-Tools are only used to determine website age as well as deep article recognition. 
 The API`s in usage are of the Wayback Machine as well as, choosable by the User, a quick-lookup of the article body text in GPTZero. 
 
 ## Please be aware that Ai-Generation, Misinformation and Scams are always evolving. Use this tool in combination with a good pinch of doubt. 
 ## Studies have indicated that articles by non-english natives are disproportionetly flagged as AI.
+
+Basically, the tool judges a website by mutiple weighted criteria and if the summed up criteria points are high enough, the website gets put on the blocklist.
+   - it takes the search result in DuckDuckGo for popular topics and checks each article-content-based website that is not on the whitelist. It does so for the first 5 pages each time.
+   -    - the popular topics are curled regularly, as to keep it future-proof and up-to-date.
+         
+   - the program can run endlessly, put can be configured to only run at certain times/intervalls and through specific categories.
+
+   - For each website, there are multiple steps the tool goes through. To see how all the steps went, you can see the log file.
+     
