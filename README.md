@@ -2,6 +2,7 @@
 DigiDoubt is a privacy and quality driven firefox extension used to judge if a website might be ai-generated. 
 
 See the DigiDoubt block-list for DNS blocking at: https://github.com/mklemmingen/DigiDoubt_blocklist
+The Blocklist includes high-profile for-sure ai-generated websites.The Tool helps navigating Search Engine Results additionally. 
 
 "NewsGuard analysts identified the AI-generated websites through keyword searches for phrases commonly produced by AI chatbots. 
 The searches were conducted on the search engines Google, Bing, and DuckDuckGo, as well as a media monitoring platform. 
