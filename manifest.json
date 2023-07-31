@@ -8,9 +8,11 @@
   "icons": {
     
   },
-
-  "content_scripts": [
+ "permissions": ["activeTab"],
+ "content_scripts": [
     {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
     }
   ]
 }
