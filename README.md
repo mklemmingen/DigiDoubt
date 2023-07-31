@@ -13,8 +13,9 @@ For now, please be aware that the tool only handles english articles.
 
 It there was a mistake, If it was done uncarefully, this tool snoops it out.
 
-Please be aware that Ai-Generation, Misinformation and Scams are always evolving. Use this tool in combination with a good pinch of doubt. 
+This tools tries to be as client-sided as possible, no data-collecting and low on resource usage.
+All API-Tools are only used to determine website age as well as, if choosen, deep article recognizion. 
 The API`s in usage are of the Wayback Machine as well as, choosable by the User, a quick-lookup of the article body text in GPTZero. 
 
-This tools tries to be as client-sided as possible, no data-collecting and low on resource usage.
-All API-Tools are only used to determine website age (Wayback Machine) as well as, if choosen, deep article recognizion. 
+## Please be aware that Ai-Generation, Misinformation and Scams are always evolving. Use this tool in combination with a good pinch of doubt. 
+## Studies have indicated that articles by non-english natives are disproportionetly flagged as AI.
