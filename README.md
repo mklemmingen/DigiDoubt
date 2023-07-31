@@ -27,4 +27,22 @@ Basically, the tool judges a website by mutiple weighted criteria and if the sum
    - the program can run endlessly, put can be configured to only run at certain times/intervalls and through specific categories.
 
    - For each website, there are multiple steps the tool goes through. To see how all the steps went, you can see the log file.
+
+```css
+DigiDoubt
+│
+├── src
+│   ├── main.py
+│   ├── search_engine.py
+│   ├── website_scraper.py
+│   ├── ai_phrases.py
+│   └── judge.py
+│
+├── data
+│   ├── positive_urls.txt
+│   └── logs
+│       └── logs.txt
+│
+└── .git
+```
      
