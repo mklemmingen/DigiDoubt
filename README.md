@@ -64,4 +64,5 @@ DigiDoubt
 └── .git
 ```
      
-## For the time being, all results of this tool are manually checked and added to the blocklist. 
+### For the time being, all results of this tool are manually checked and added to the blocklist. 
+### I suggest running this tools in a VPN-protected environment or in conjunction with PiVPN
