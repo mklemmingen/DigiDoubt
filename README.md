@@ -22,7 +22,7 @@ The API`s in usage are of the Wayback Machine as well as, choosable by the User,
 ## Studies have indicated that articles by non-english natives are disproportionetly flagged as AI.
 
 Basically, the tool judges a website by mutiple weighted criteria and if the summed up criteria points are high enough, the website gets put on the blocklist.
-   - it takes the search result in DuckDuckGo for popular topics and checks each article-content-based website that is not on the whitelist. It does so for the first 5 pages each time.
+   - it takes the search result in DuckDuckGo for popular topics and checks each article-content-based website that is not on the whitelist. It does so for the first 5 pages on the search engine results each time.
    -    - the popular topics are curled regularly, as to keep it future-proof and up-to-date.
          
    - the program can run endlessly, put can be configured to only run at certain times/intervalls and through specific categories.
