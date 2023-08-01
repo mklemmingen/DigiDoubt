@@ -21,7 +21,7 @@ The API`s in usage are of the Wayback Machine as well as, down the line, a quick
 ## Please be aware that Ai-Generation, Misinformation and Scams are always evolving. Use this tool in combination with a good pinch of doubt. 
 ## Studies have indicated that articles by non-english natives are disproportionetly flagged as AI.
 
-Basically, the tool judges a website by mutiple weighted criteria and if the summed up criteria points are high enough, the website gets put on the blocklist.
+Basically, the tool judges a website by mutiple weighted criteria and if the summed up criteria points are high enough, the website gets put on the positive_urls-list. 
 
 ### To-Do
 
