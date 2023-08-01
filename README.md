@@ -22,12 +22,29 @@ The API`s in usage are of the Wayback Machine as well as, choosable by the User,
 ## Studies have indicated that articles by non-english natives are disproportionetly flagged as AI.
 
 Basically, the tool judges a website by mutiple weighted criteria and if the summed up criteria points are high enough, the website gets put on the blocklist.
-   - it takes the search result in DuckDuckGo for popular topics and checks each article-content-based website that is not on the whitelist. It does so for the first 5 pages on the search engine results each time.
-   -    - the popular topics are curled regularly, as to keep it future-proof and up-to-date.
+
+### To-Do
+
+   - it takes the search result in DuckDuckGo for popular topics and checks each article-based website that is not specifically on the whitelist (wikipedia trusted sources).
+   -  It does so for the first 5 pages on the search engine results each time.
+        - the popular topics are curled regularly from google Trends (US-EN, since AI-Websites seem to focus on here), as to keep it future-proof and up-to-date.
+        - topics also additionally included other search trends that are simply all-time favorites and have nothing to do with current/on-going events 
+    
+   - For each website, there are multiple steps the tool goes through. To see how all the steps went, you can see the log file.
+        - check article for ai-generation using NLP and key-phrases.
+        - check about-it webpage to detect discrepancies and/or sloppiness in creation.
+        - check age of website using waybackmachine-api.
+        - background check article editor. If a generic name was given or if person is deemed fake, points are added to the Doubt-Count.
+        - check website structure for generic/similiar layout to known ai-generated webpages.
+    
+   - for each flagged website, some key metadata is written to the logfile. A further down the line To-Do will be to find the ties between ai-generated websites to
+     flag more efficiently. 
          
    - the program can run endlessly, put can be configured to only run at certain times/intervalls and through specific categories.
 
-   - For each website, there are multiple steps the tool goes through. To see how all the steps went, you can see the log file.
+  
+
+### Project Structure
 
 ```css
 DigiDoubt
