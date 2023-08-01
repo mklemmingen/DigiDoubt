@@ -1,5 +1,5 @@
 # DigiDoubt
-DigiDoubt is a privacy and quality driven ai-article-website detector used to create ai-article blocklists. 
+DigiDoubt is a privacy and quality driven ai-article-website detector used to create blocklists. 
 
 See the DigiDoubt block-list for DNS blocking at: https://github.com/mklemmingen/DigiDoubt_blocklist
 The Blocklist includes high-profile for-sure ai-generated websites.The Tool helps navigating Search Engine Results additionally. 
