@@ -57,7 +57,7 @@ def get_trending_websites() -> list:
 def clean_website_list(websites: list, whitelist: list) -> list:
     """
     this will be a function that cleans the list of websites.
-    We will be using a dynamic whitelist
+    We will be using a dynamic whitelist (changes with program_run_time in main.py)
     :param whitelist: list of urls that are not allowed in the list of websites
     :param websites: list of websites that were search engine scraped
     :return: returns a cleaned list
