@@ -51,9 +51,11 @@ DigiDoubt
 │
 ├── data
 │   ├── positive_urls.txt
-│   └── logs
-│       └── dd-mm-yy_hh-mm.txt
-│
+│   ├── logs
+│   │    └── dd-mm-yy_hh-mm.txt
+│   └── html
+│        └── privacy_policy
+│        └── about
 └── .git
 ```
      
