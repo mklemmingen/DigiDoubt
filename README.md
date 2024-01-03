@@ -61,3 +61,10 @@ DigiDoubt
 ### I suggest running this tools in a VPN-protected environment or in conjunction with PiVPN and a configured Pihole. 
 
 ### Terminalbased. also writing to log.files
+
+## SOURCES
+
+For finding similiar html structures - thank you to matiskay
+
+https://github.com/matiskay/html-similarity
+
