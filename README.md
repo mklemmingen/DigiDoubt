@@ -52,7 +52,7 @@ DigiDoubt
 ├── data
 │   ├── positive_urls.txt
 │   └── logs
-│       └── dd/mm/yy_hh/mm.txt
+│       └── dd-mm-yy_hh-mm.txt
 │
 └── .git
 ```
