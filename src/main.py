@@ -1,10 +1,8 @@
-
 import logging
 from datetime import datetime
 import os
 
 from src.search_engine import google_search, get_questions
-
 
 # creating a new log file in data/log with the current date and time
 # Get current date and time for the log filename
@@ -16,9 +14,11 @@ logging.basicConfig(filename=log_filename, level=logging.INFO,
                     format='%(asctime)s %(levelname)s: %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S')
 
+
 def print_info(string):
     print(f"[INFO] {string}")
     logging.info(string)
+
 
 print_info("Getting trending websites...")
 
