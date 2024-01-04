@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 
 import requests
 
+
 def get_questions() -> list:
     """
     returns a list of questions from stackoverflow that are a week or two old
@@ -45,8 +46,8 @@ def get_questions() -> list:
     for question in data['items']:
         questions.append(question['title'])
 
-    # here we return the trending topics of the day of the categories
     return questions
+
 
 # Function to perform a search
 def google_search(search_term, api_key, cse_id, **kwargs):
@@ -58,4 +59,5 @@ def google_search(search_term, api_key, cse_id, **kwargs):
     }
     params.update(kwargs)
     response = requests.get(search_url, params=params)
+
     return response.json()
