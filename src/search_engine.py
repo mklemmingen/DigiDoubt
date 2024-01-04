@@ -7,6 +7,7 @@ Created by Marty Lauterbach on the 31st of July 2023, Warsaw, Poland.
 import requests
 from datetime import datetime, timedelta
 
+import requests
 
 def get_questions() -> list:
     """
@@ -46,3 +47,15 @@ def get_questions() -> list:
 
     # here we return the trending topics of the day of the categories
     return questions
+
+# Function to perform a search
+def google_search(search_term, api_key, cse_id, **kwargs):
+    search_url = "https://www.googleapis.com/customsearch/v1"
+    params = {
+        'q': search_term,
+        'key': api_key,
+        'cx': cse_id
+    }
+    params.update(kwargs)
+    response = requests.get(search_url, params=params)
+    return response.json()
