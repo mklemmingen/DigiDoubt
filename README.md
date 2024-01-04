@@ -45,12 +45,12 @@ DigiDoubt
 ├── src
 │   ├── main.py
 │   ├── search_engine.py
-│   ├── website_scraper.py
+│   ├── 
 │   ├── ai_phrases.py
-│   └── judge.py
+│   └── 
 │
 ├── data
-│   ├── positive_urls.txt
+│   ├── positive_urls.txt , neutral_urls.txt , whitelist.txt
 │   ├── logs
 │   │    └── dd-mm-yy_hh-mm.txt
 │   └── html
